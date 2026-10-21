@@ -1,0 +1,19 @@
+| View | Spend | Clicks | Conv. | CTR | CPA | ROAS | UI = SQL |
+|---|---|---|---|---|---|---|---|
+| Last 90 days of data (default) | 35,474.85 | 52,669 | 1,942 | 2.30% | 18.27 | 2.74× | PASS |
+| All loaded data | 35,474.85 | 52,669 | 1,942 | 2.30% | 18.27 | 2.74× | PASS |
+| Last 30 days of data | 12,453.51 | 16,753 | 561 | 2.08% | 22.20 | 2.33× | PASS |
+| Last 7 days of data | 2,935.12 | 3,892 | 125 | 2.09% | 23.48 | 2.18× | PASS |
+| Last 90, platform = Meta | 22,524.87 | 34,710 | 1,070 | 2.25% | 21.05 | 1.99× | PASS |
+
+Campaign table numeric cells (2 ranges x 4 campaigns x 7 columns = 56) UI vs SQL: PASS
+delta spend: UI "-0.1% vs previous 30 days" | SQL "-0.1% vs previous 30 days"
+delta clicks: UI "-10.1% vs previous 30 days" | SQL "-10.1% vs previous 30 days"
+delta conversions: UI "-11.9% vs previous 30 days" | SQL "-11.9% vs previous 30 days"
+delta ctr: UI "-9.9% vs previous 30 days" | SQL "-9.9% vs previous 30 days"
+delta cpa: UI "+13.4% vs previous 30 days" | SQL "+13.4% vs previous 30 days"
+delta roas: UI "-8.9% vs previous 30 days" | SQL "-8.9% vs previous 30 days"
+
+Flags (default sort order): {"campaigns-default": [["Summer Collection Push", "Weak"], ["Evergreen Basics", "Weak"], ["Flash Sale Banner", "Average"], ["Winter Pre-Launch", "Strong"]], "campaigns-30d-via-attention-link": [["Flash Sale Banner", "Weak"], ["Evergreen Basics", "Weak"], ["Summer Collection Push", "Average"], ["Winter Pre-Launch", "Strong"]]}
+
+OVERALL: PASS

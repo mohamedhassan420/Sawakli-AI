@@ -1,0 +1,19 @@
+{
+  "phase": "error-with-session",
+  "steps": [
+    {
+      "step": "error-state",
+      "text": "Campaign data could not be loaded. The Sawakli service is unavailable. Please try again. Retry",
+      "retryButton": 1
+    },
+    {
+      "step": "console-errors",
+      "count": 3,
+      "errors": [
+        "http://localhost:3041/login :: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "http://localhost:3041/dashboard :: Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+        "http://localhost:3041/dashboard :: Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+      ]
+    }
+  ]
+}

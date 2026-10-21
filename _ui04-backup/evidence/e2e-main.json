@@ -1,0 +1,475 @@
+{
+  "phase": "main",
+  "steps": [
+    {
+      "step": "login",
+      "email": "demo@nourfashion.example",
+      "landed": "/dashboard"
+    },
+    {
+      "step": "dashboard-default",
+      "spend": {
+        "value": "35,474.85",
+        "delta": null
+      },
+      "clicks": {
+        "value": "52,669",
+        "delta": null
+      },
+      "conversions": {
+        "value": "1,942",
+        "delta": null
+      },
+      "ctr": {
+        "value": "2.30%",
+        "delta": null
+      },
+      "cpa": {
+        "value": "18.27",
+        "delta": null
+      },
+      "roas": {
+        "value": "2.74×",
+        "delta": null
+      },
+      "dataThrough": "Data through 20 Aug 2026 · Showing 23 May 2026 – 20 Aug 2026",
+      "mutedLine": "No earlier data to compare with for this range.",
+      "attention": [
+        "Evergreen Basics ROAS below 1.0× — revenue does not cover spend",
+        "Summer Collection Push CPA more than 25% above the organization CPA"
+      ]
+    },
+    {
+      "step": "dashboard-all",
+      "spend": {
+        "value": "35,474.85",
+        "delta": null
+      },
+      "clicks": {
+        "value": "52,669",
+        "delta": null
+      },
+      "conversions": {
+        "value": "1,942",
+        "delta": null
+      },
+      "ctr": {
+        "value": "2.30%",
+        "delta": null
+      },
+      "cpa": {
+        "value": "18.27",
+        "delta": null
+      },
+      "roas": {
+        "value": "2.74×",
+        "delta": null
+      },
+      "dataThrough": "Data through 20 Aug 2026 · Showing 22 Oct 2025 – 20 Aug 2026",
+      "mutedLine": "No earlier data to compare with for this range.",
+      "attention": [
+        "Evergreen Basics ROAS below 1.0× — revenue does not cover spend",
+        "Summer Collection Push CPA more than 25% above the organization CPA"
+      ]
+    },
+    {
+      "step": "dashboard-7d",
+      "spend": {
+        "value": "2,935.12",
+        "delta": "-2.1% vs previous 7 days"
+      },
+      "clicks": {
+        "value": "3,892",
+        "delta": "-4.1% vs previous 7 days"
+      },
+      "conversions": {
+        "value": "125",
+        "delta": "-8.8% vs previous 7 days"
+      },
+      "ctr": {
+        "value": "2.09%",
+        "delta": "-0.7% vs previous 7 days"
+      },
+      "cpa": {
+        "value": "23.48",
+        "delta": "+7.3% vs previous 7 days"
+      },
+      "roas": {
+        "value": "2.18×",
+        "delta": "-10.0% vs previous 7 days"
+      },
+      "dataThrough": "Data through 20 Aug 2026 · Showing 14 Aug 2026 – 20 Aug 2026",
+      "mutedLine": null,
+      "attention": [
+        "Evergreen Basics ROAS below 1.0× — revenue does not cover spend",
+        "Flash Sale Banner CPA more than 25% above the organization CPA"
+      ]
+    },
+    {
+      "step": "dashboard-meta",
+      "url": "http://localhost:3041/dashboard?platform=meta",
+      "spend": {
+        "value": "22,524.87",
+        "delta": null
+      },
+      "clicks": {
+        "value": "34,710",
+        "delta": null
+      },
+      "conversions": {
+        "value": "1,070",
+        "delta": null
+      },
+      "ctr": {
+        "value": "2.25%",
+        "delta": null
+      },
+      "cpa": {
+        "value": "21.05",
+        "delta": null
+      },
+      "roas": {
+        "value": "1.99×",
+        "delta": null
+      },
+      "dataThrough": "Data through 20 Aug 2026 · Showing 23 May 2026 – 20 Aug 2026",
+      "mutedLine": "No earlier data to compare with for this range.",
+      "attention": [
+        "Summer Collection Push CPA more than 25% above the organization CPA"
+      ]
+    },
+    {
+      "step": "dashboard-30d",
+      "spend": {
+        "value": "12,453.51",
+        "delta": "-0.1% vs previous 30 days"
+      },
+      "clicks": {
+        "value": "16,753",
+        "delta": "-10.1% vs previous 30 days"
+      },
+      "conversions": {
+        "value": "561",
+        "delta": "-11.9% vs previous 30 days"
+      },
+      "ctr": {
+        "value": "2.08%",
+        "delta": "-9.9% vs previous 30 days"
+      },
+      "cpa": {
+        "value": "22.20",
+        "delta": "+13.4% vs previous 30 days"
+      },
+      "roas": {
+        "value": "2.33×",
+        "delta": "-8.9% vs previous 30 days"
+      },
+      "dataThrough": "Data through 20 Aug 2026 · Showing 22 Jul 2026 – 20 Aug 2026",
+      "mutedLine": null,
+      "attention": [
+        "Evergreen Basics ROAS below 1.0× — revenue does not cover spend",
+        "Flash Sale Banner CPA more than 25% above the organization CPA"
+      ]
+    },
+    {
+      "step": "campaigns-30d-via-attention-link",
+      "url": "http://localhost:3041/campaigns?range=30d",
+      "rows": [
+        {
+          "cells": [
+            "Flash Sale Banner",
+            "Meta",
+            "Active",
+            "2,651.60",
+            "1,980",
+            "74",
+            "0.98%",
+            "1.34",
+            "35.83",
+            "1.05×",
+            "Weak\n: CPA more than 25% above the organization CPA"
+          ],
+          "weakClass": true,
+          "reason": "CPA more than 25% above the organization CPA"
+        },
+        {
+          "cells": [
+            "Evergreen Basics",
+            "Google",
+            "Active",
+            "2,019.78",
+            "1,571",
+            "23",
+            "1.40%",
+            "1.29",
+            "87.82",
+            "0.34×",
+            "Weak\n: ROAS below 1.0× — revenue does not cover spend"
+          ],
+          "weakClass": true,
+          "reason": "ROAS below 1.0× — revenue does not cover spend"
+        },
+        {
+          "cells": [
+            "Summer Collection Push",
+            "Meta",
+            "Active",
+            "5,503.37",
+            "8,837",
+            "199",
+            "2.48%",
+            "0.62",
+            "27.66",
+            "1.62×",
+            "Average"
+          ],
+          "weakClass": false,
+          "reason": null
+        },
+        {
+          "cells": [
+            "Winter Pre-Launch",
+            "Google",
+            "Active",
+            "2,278.76",
+            "4,365",
+            "265",
+            "3.20%",
+            "0.52",
+            "8.60",
+            "7.31×",
+            "Strong"
+          ],
+          "weakClass": false,
+          "reason": null
+        }
+      ],
+      "footer": "Showing 4 of 4 campaigns"
+    },
+    {
+      "step": "campaigns-default",
+      "rows": [
+        {
+          "cells": [
+            "Summer Collection Push",
+            "Meta",
+            "Active",
+            "14,479.83",
+            "23,460",
+            "608",
+            "2.49%",
+            "0.62",
+            "23.82",
+            "1.90×",
+            "Weak\n: CPA more than 25% above the organization CPA"
+          ],
+          "weakClass": true,
+          "reason": "CPA more than 25% above the organization CPA"
+        },
+        {
+          "cells": [
+            "Evergreen Basics",
+            "Google",
+            "Active",
+            "5,961.84",
+            "4,599",
+            "60",
+            "1.40%",
+            "1.30",
+            "99.36",
+            "0.30×",
+            "Weak\n: ROAS below 1.0× — revenue does not cover spend"
+          ],
+          "weakClass": true,
+          "reason": "ROAS below 1.0× — revenue does not cover spend"
+        },
+        {
+          "cells": [
+            "Flash Sale Banner",
+            "Meta",
+            "Active",
+            "8,045.04",
+            "11,250",
+            "462",
+            "1.86%",
+            "0.72",
+            "17.41",
+            "2.16×",
+            "Average"
+          ],
+          "weakClass": false,
+          "reason": null
+        },
+        {
+          "cells": [
+            "Winter Pre-Launch",
+            "Google",
+            "Active",
+            "6,988.14",
+            "13,360",
+            "812",
+            "3.20%",
+            "0.52",
+            "8.61",
+            "7.24×",
+            "Strong"
+          ],
+          "weakClass": false,
+          "reason": null
+        }
+      ],
+      "footer": "Showing 4 of 4 campaigns"
+    },
+    {
+      "step": "campaigns-sorted-roas-desc",
+      "rows": [
+        {
+          "cells": [
+            "Winter Pre-Launch",
+            "Google",
+            "Active",
+            "6,988.14",
+            "13,360",
+            "812",
+            "3.20%",
+            "0.52",
+            "8.61",
+            "7.24×",
+            "Strong"
+          ],
+          "weakClass": false,
+          "reason": null
+        },
+        {
+          "cells": [
+            "Flash Sale Banner",
+            "Meta",
+            "Active",
+            "8,045.04",
+            "11,250",
+            "462",
+            "1.86%",
+            "0.72",
+            "17.41",
+            "2.16×",
+            "Average"
+          ],
+          "weakClass": false,
+          "reason": null
+        },
+        {
+          "cells": [
+            "Summer Collection Push",
+            "Meta",
+            "Active",
+            "14,479.83",
+            "23,460",
+            "608",
+            "2.49%",
+            "0.62",
+            "23.82",
+            "1.90×",
+            "Weak\n: CPA more than 25% above the organization CPA"
+          ],
+          "weakClass": true,
+          "reason": "CPA more than 25% above the organization CPA"
+        },
+        {
+          "cells": [
+            "Evergreen Basics",
+            "Google",
+            "Active",
+            "5,961.84",
+            "4,599",
+            "60",
+            "1.40%",
+            "1.30",
+            "99.36",
+            "0.30×",
+            "Weak\n: ROAS below 1.0× — revenue does not cover spend"
+          ],
+          "weakClass": true,
+          "reason": "ROAS below 1.0× — revenue does not cover spend"
+        }
+      ],
+      "footer": "Showing 4 of 4 campaigns"
+    },
+    {
+      "step": "campaigns-google-active",
+      "rows": [
+        {
+          "cells": [
+            "Evergreen Basics",
+            "Google",
+            "Active",
+            "5,961.84",
+            "4,599",
+            "60",
+            "1.40%",
+            "1.30",
+            "99.36",
+            "0.30×",
+            "Weak\n: ROAS below 1.0× — revenue does not cover spend"
+          ],
+          "weakClass": true,
+          "reason": "ROAS below 1.0× — revenue does not cover spend"
+        },
+        {
+          "cells": [
+            "Winter Pre-Launch",
+            "Google",
+            "Active",
+            "6,988.14",
+            "13,360",
+            "812",
+            "3.20%",
+            "0.52",
+            "8.61",
+            "7.24×",
+            "Strong"
+          ],
+          "weakClass": false,
+          "reason": null
+        }
+      ],
+      "footer": "Showing 2 of 4 campaigns"
+    },
+    {
+      "step": "detail",
+      "url": "http://localhost:3041/campaigns/770e8400-e29b-41d4-a716-44665544000a",
+      "heading": "Summer Collection Push"
+    },
+    {
+      "step": "detail-unknown-id",
+      "notFound": true
+    },
+    {
+      "step": "expired-token",
+      "landed": "/login",
+      "sessionCleared": true
+    },
+    {
+      "step": "login",
+      "email": "other@isolation.example",
+      "landed": "/dashboard"
+    },
+    {
+      "step": "other-org-empty",
+      "kpiCards": 0
+    },
+    {
+      "step": "other-org-nour-campaign-detail",
+      "notFound": true
+    },
+    {
+      "step": "console-errors",
+      "count": 4,
+      "errors": [
+        "http://localhost:3041/login :: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "http://localhost:3041/campaigns/00000000-0000-0000-0000-000000000000 :: Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "http://localhost:3041/dashboard :: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+        "http://localhost:3041/campaigns/770e8400-e29b-41d4-a716-44665544000a :: Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    }
+  ]
+}

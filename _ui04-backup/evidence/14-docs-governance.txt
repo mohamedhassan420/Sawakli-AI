@@ -1,0 +1,16 @@
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 5. Step-by-Step Implementation Walkthrough
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 6. Inputs
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 7. Outputs
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 8. Rules and Semantics
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 9. Public Interfaces
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 10. Data Ownership
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 11. Security
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 12. Error and Edge-Case Behavior
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 13. Testing
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 14. Verification
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 15. Known Limitations
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 16. Follow-Up Tasks
+docs/ui/UI-02-ui-foundation-and-api-client.md: missing required heading: ## 17. References and Evidence
+docs/ui/UI-02-ui-foundation-and-api-client.md: section headings must match the complete 17-section format in order.
+Task documents must follow docs/templates/TASK_DOCUMENTATION_TEMPLATE.md; existing documents may retain the complete original 16-section format.
+governance exit 1

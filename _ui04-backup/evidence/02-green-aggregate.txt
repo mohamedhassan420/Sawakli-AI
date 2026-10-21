@@ -1,0 +1,10 @@
+
+ RUN  v3.2.7 /home/user/Sawakli-AI/apps/web
+
+ ✓ tests/dashboard-aggregate.test.ts (29 tests) 13ms
+
+ Test Files  1 passed (1)
+      Tests  29 passed (29)
+   Start at  16:58:00
+   Duration  729ms (transform 72ms, setup 68ms, collect 62ms, tests 13ms, environment 336ms, prepare 69ms)
+

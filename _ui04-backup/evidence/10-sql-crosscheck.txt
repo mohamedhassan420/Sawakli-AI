@@ -1,0 +1,23 @@
+=== Org KPIs per range (Nour org, sum raw facts then divide) ===
+label | rows | spend | clicks | conversions | ctr | cpa | roas | cpc
+Last 7 | 28 | 2,935.12 | 3892 | 125 | 2.09% | 23.48 | 2.18 | 0.75
+Prev 7 | 28 | 2,996.77 | 4059 | 137 | 2.10% | 21.87 | 2.42 | 0.74
+Last 30 | 120 | 12,453.51 | 16753 | 561 | 2.08% | 22.20 | 2.33 | 0.74
+Prev 30 | 120 | 12,469.78 | 18631 | 637 | 2.31% | 19.58 | 2.56 | 0.67
+Prev 90 | 0 | 0.00 | 0 | 0 |  |  |  | 
+All / Last 90 | 360 | 35,474.85 | 52669 | 1942 | 2.30% | 18.27 | 2.74 | 0.67
+=== Meta only, last 90 days of data ===
+spend | clicks | conv | ctr | cpa | roas
+22,524.87 | 34710 | 1070 | 2.25% | 21.05 | 1.99
+=== Per campaign, last 30 days of data ===
+name | spend | clicks | conv | ctr | cpc | cpa | roas
+Evergreen Basics | 2,019.78 | 1571 | 23 | 1.40% | 1.29 | 87.82 | 0.34
+Flash Sale Banner | 2,651.60 | 1980 | 74 | 0.98% | 1.34 | 35.83 | 1.05
+Summer Collection Push | 5,503.37 | 8837 | 199 | 2.48% | 0.62 | 27.66 | 1.62
+Winter Pre-Launch | 2,278.76 | 4365 | 265 | 3.20% | 0.52 | 8.60 | 7.31
+=== Per campaign, last 90 days of data ===
+name | spend | clicks | conv | ctr | cpc | cpa | roas
+Evergreen Basics | 5,961.84 | 4599 | 60 | 1.40% | 1.30 | 99.36 | 0.30
+Flash Sale Banner | 8,045.04 | 11250 | 462 | 1.86% | 0.72 | 17.41 | 2.16
+Summer Collection Push | 14,479.83 | 23460 | 608 | 2.49% | 0.62 | 23.82 | 1.90
+Winter Pre-Launch | 6,988.14 | 13360 | 812 | 3.20% | 0.52 | 8.61 | 7.24

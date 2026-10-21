@@ -1,0 +1,28 @@
+
+ RUN  v3.2.7 /home/user/Sawakli-AI/apps/web
+
+ ❯ tests/dashboard-review-fixes.test.ts (9 tests | 9 failed) 26ms
+   × ranges never reach outside the fetched window > fetches exactly 365 days including today 13ms
+     → expected { Object (from, to) } to deeply equal { Object (from, to) }
+   × ranges never reach outside the fetched window > clamps a preset that would start before the fetched window 2ms
+     → expected { Object (from, to) } to deeply equal { Object (from, to) }
+   × deltas are only compared against a fully covered previous period > finds the earliest date with data 1ms
+     → (0 , earliestDataDate) is not a function
+   × deltas are only compared against a fully covered previous period > returns the previous period when data covers all of it 1ms
+     → (0 , coveredPreviousPeriod) is not a function
+   × deltas are only compared against a fully covered previous period > returns null when data starts inside the previous period 1ms
+     → (0 , coveredPreviousPeriod) is not a function
+   × deltas are only compared against a fully covered previous period > returns null when the previous period starts before the fetched window 1ms
+     → (0 , coveredPreviousPeriod) is not a function
+   × deltas are only compared against a fully covered previous period > returns null without any data 1ms
+     → (0 , coveredPreviousPeriod) is not a function
+   × float accumulation does not flip a flag at an exact threshold > treats CPA exactly at 1.25 x the organization CPA as not weak despite 0.1 + 0.2 4ms
+     → expected 'weak' to be 'average' // Object.is equality
+   × delta rounding > treats a change that displays as 0.0% as no change 1ms
+     → (0 , roundChange) is not a function
+
+ Test Files  1 failed (1)
+      Tests  9 failed (9)
+   Start at  17:19:42
+   Duration  770ms (transform 70ms, setup 85ms, collect 76ms, tests 26ms, environment 317ms, prepare 80ms)
+

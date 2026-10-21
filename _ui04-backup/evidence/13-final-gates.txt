@@ -1,0 +1,30 @@
+node v24.22.1
+== npm ci
+npm warn install-scripts
+npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+exit 0
+== lint
+  6:42  warning  '_orgId' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+
+== type-check
+> tsc --noEmit
+
+== test
+ Test Files  13 passed (13)
+      Tests  83 passed (83)
+== build
+✓ Compiled successfully in 400ms
+├ ○ /campaigns
+├ ƒ /campaigns/[id]
+├ ○ /dashboard
+=== Contract checks: 5/5 PASS ===
+| Command | Result | Detail |
+|---|---|---|
+| `node tests/contracts/validate-db-schema.mjs` | PASS | Accepted known deviations (1): breaking-mismatch 0, contract-stale 1, loose-typing 0 |
+| `node tests/contracts/validate-ui-types.mjs` | PASS | no deviations |
+| `node tests/contracts/validate-backend-models.mjs` | PASS | Accepted known deviations (7): breaking-mismatch 0, contract-stale 3, loose-typing 4 |
+| `node tests/contracts/validate-ai-schemas.mjs` | PASS | Accepted known deviations (1): breaking-mismatch 1, contract-stale 0, loose-typing 0 |
+| `node tests/contracts/test-deliberate-mismatch.mjs` | PASS | 23 injected mismatch case(s) caught; real contract files unchanged |
+

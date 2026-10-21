@@ -1,0 +1,67 @@
+
+ RUN  v3.2.7 /home/user/Sawakli-AI/apps/web
+
+ ❯ tests/dashboard-aggregate.test.ts (29 tests | 28 failed) 23ms
+   × date helpers (YYYY-MM-DD, no timezone shifts) > adds days across month, leap-year and year boundaries 7ms
+     → not implemented
+   × date helpers (YYYY-MM-DD, no timezone shifts) > counts an inclusive range 1ms
+     → not implemented
+   × date helpers (YYYY-MM-DD, no timezone shifts) > takes today from the local calendar date, not from UTC 1ms
+     → not implemented
+   × date helpers (YYYY-MM-DD, no timezone shifts) > fetches the last 365 days up to today 1ms
+     → not implemented
+   × summarize: sum the raw facts first, then divide > computes CTR from summed clicks and impressions, not by averaging daily CTRs 1ms
+     → not implemented
+   × summarize: sum the raw facts first, then divide > computes CPA, CPC and ROAS from the sums 1ms
+     → not implemented
+   × summarize: sum the raw facts first, then divide > returns null ratios for zero denominators, never 0 or Infinity 1ms
+     → not implemented
+   × summarize: sum the raw facts first, then divide > summarizes no rows as zero facts with null ratios 0ms
+     → not implemented
+   × summarize: sum the raw facts first, then divide > combines campaign summaries by summing facts, matching a summary of all rows 1ms
+     → not implemented
+   × date ranges > keeps rows on both inclusive boundary days and drops the days outside 1ms
+     → not implemented
+   × date ranges > finds the latest date that has data across campaigns 1ms
+     → not implemented
+   × date ranges > anchors presets to the latest data date 0ms
+     → not implemented
+   × date ranges > returns the previous period of equal length that ends the day before 0ms
+     → not implemented
+   ✓ classifyPerformance (UI-04 display rule) > uses the documented thresholds 1ms
+   × classifyPerformance (UI-04 display rule) > flags weak when ROAS is below 1.0 0ms
+     → not implemented
+   × classifyPerformance (UI-04 display rule) > flags weak when CPA is more than 1.25 x the organization CPA 0ms
+     → not implemented
+   × classifyPerformance (UI-04 display rule) > does not flag weak at exactly 1.25 x the organization CPA 0ms
+     → not implemented
+   × classifyPerformance (UI-04 display rule) > flags weak when there is spend but no conversions 0ms
+     → not implemented
+   × classifyPerformance (UI-04 display rule) > flags strong when ROAS and CPA are at least as good as the organization 0ms
+     → not implemented
+   × classifyPerformance (UI-04 display rule) > flags average otherwise 0ms
+     → not implemented
+   × classifyPerformance (UI-04 display rule) > reports no data when the campaign has no spend in the range 0ms
+     → not implemented
+   × classifyPerformance (UI-04 display rule) > still flags spend without conversions when the organization CPA is null 0ms
+     → not implemented
+   × buildPerformance and filterPerformance > only counts rows inside the range and keeps the API campaign order 0ms
+     → not implemented
+   × buildPerformance and filterPerformance > flags against the whole organization and excludes no-data campaigns from the baseline 0ms
+     → not implemented
+   × buildPerformance and filterPerformance > keeps flags unchanged when platform or status filters are applied 0ms
+     → not implemented
+   × buildPerformance and filterPerformance > filters by status, treating a null status as unknown 0ms
+     → not implemented
+   × buildPerformance and filterPerformance > handles an organization with no campaigns 0ms
+     → not implemented
+   × buildPerformance and filterPerformance > treats a campaign with no metric rows at all as no data 0ms
+     → not implemented
+   × percentChange > returns the relative change only when both values exist and the previous is not 0 0ms
+     → not implemented
+
+ Test Files  1 failed (1)
+      Tests  28 failed | 1 passed (29)
+   Start at  16:57:34
+   Duration  788ms (transform 69ms, setup 56ms, collect 54ms, tests 23ms, environment 366ms, prepare 76ms)
+
